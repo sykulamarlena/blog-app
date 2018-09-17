@@ -92,8 +92,8 @@ class PostsList extends Component {
                         <Col xs={12} sm={12} md={12} lg={12}>
                             {(posts.length >= 5) && posts
                                 .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
-                                .map((post) =>
-                                    <PostContent post={post} key={post.id}/>
+                                .map((post, index) =>
+                                    <PostContent post={post} key={post.id} index={index}/>
                                 )
                             }
 
