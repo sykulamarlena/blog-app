@@ -1,0 +1,22 @@
+.notFoundWrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 100vh;
+}
+
+.notFoundTitle {
+    color: red;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.notFoundDescription {
+    font-size: 2.45rem;
+}
+
+.notFoundButton {
+    width: 19rem;
+    padding: 2rem;
+}
